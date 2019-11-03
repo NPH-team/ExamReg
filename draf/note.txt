@@ -8,6 +8,12 @@ TT. Tiêu chí chấm điểm Hệ số
 7. Phong cách lập trình: Sử dụng mẫu thiết kế, tách biệt mã tạo giao diện và mã xử lý nghiệp vụ, tổ chức thư viện, lớp và kế thừa lớp, mô hình MVC, trình bày mã, chú thích mã, ... 0.1
 8. Thao tác CSDL theo lập trình hướng đối và độc lập CSDL 0.1
 ------------------------------------------------------------------------------------
+MO HINH MVC (Model, View, Control)
+
+- Xay dung cac file thanh cac thanh phan doc lap tuong ung MVC 
+	(Chia nho cac phan cua "bai toan" roi xu li)
+
+-----------------------------------------------------------------
 FRONTEND
 
 - Trang Login
