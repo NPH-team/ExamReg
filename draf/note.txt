@@ -1,0 +1,60 @@
+TT. Tiêu chí chấm điểm Hệ số
+1. Chức năng và các features đã cài đặt 0.35
+2. Thiết kế: Logic, dễ sử dụng, đẹp 0.15
+3. Xử lý nhập liệu: Kiểm tra hợp thức, tự động điền, gợi ý, chuyển đổi, ... 0.05
+4. Xử lý phiên, xác thực, an ninh 0.05
+5. Viết lại và/hoặc định tuyến URL 0.1
+6. Hiệu năng: sử dụng ajax để tải bộ phận, không tải lại, dữ liệu JSON... 0.1
+7. Phong cách lập trình: Sử dụng mẫu thiết kế, tách biệt mã tạo giao diện và mã xử lý nghiệp vụ, tổ chức thư viện, lớp và kế thừa lớp, mô hình MVC, trình bày mã, chú thích mã, ... 0.1
+8. Thao tác CSDL theo lập trình hướng đối và độc lập CSDL 0.1
+------------------------------------------------------------------------------------
+FRONTEND
+
+- Trang Login
+- Trang chinh
++ Cho SV
++ Cho QuanTriVien
+
+// Cac thanh phan co trong trang tuong tu nhu trang dangkymonhoc cua truong
+// Tuong tu nhu giao dien cua chi Ha da ve
+// Giao dien cua Quan tri vien can nghien cuu them, nhung co the de sau
+
+- khung hien thi hoc phan co tuy chon
++ Xem ds hoc phan duoc dk (hoc phan dang hoc va du dieu kien dk thi)
++ Xem ds hoc phan dang hoc
++ Xem toan bo ds hoc phan
+
+- Can hinh anh (icon, logo, nen, bia,...)
+- Can thong nhat ve Css
+
+//css cua ca hp 
++ hover (?!)
++ da chon
++ khong the chon do trung lich, hoac da dang ki o ca khac
++ khong duoc chon do cam thi 
++ khong duoc chon do khong hoc
+
+- js: loc cac hp bi trung lich, cac hp da dk thi => mau
+
+=> Ai lam ?! Thong nhat ntn ?!
+
+/* 	***********************************************************
+	Su dung Ajax de tai bo phan (truy van ve server lay data)
+	Bootstrap de tuy chinh khung hinh, giao dien,.. // khong thay ghi bootstrap trong y/c, du thoi gian thi lam, kiem them....
+	
+***********************************************************/
+
+
+BACKEND
+(php, mysql)
+
+- Tao DB
+- Su dung php: 
++ Check session (login)
++ Check cookie ?! (giong wweb cua truong, sau 1 khoang thoi gian bi out)
++ truy xuat thong tin trong DB, lay thong tin tra ve cho cilent (login, ds hp da dk, thong tin sv-QTV,... )
++ su ly truy van tu cilent: 
+-> them, xoa hp trong DB (SV, QTV) // SV, QTV truy van khac nhau
+-> Sua doi thong tin SV (QTV) //them, xoa, sua doi cac truong du lieu cua SV
+ 
+// Lay data tu Excel roi su li
