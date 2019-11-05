@@ -1,7 +1,0 @@
-
-	TIMELINE
-	
-- Gom 3 tuan chinh co muc tieu hoann thanh:
-+ Tuan 1: giao dien (html la chu yeu)
-+ Tuan 2: Css, js
-+ Tuan 3: Backend

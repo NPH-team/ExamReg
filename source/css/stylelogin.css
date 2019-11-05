@@ -1,0 +1,103 @@
+body {
+    background: url("../images/bg_tc.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+#loginhead {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#login {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login {
+    width: 300px;
+    height: 25px;
+    margin-right: 50px;
+    line-height: 1.5;
+}
+
+#loginform {
+    line-height: 2px;
+}
+
+#user {
+    line-height: 1;
+}
+
+#pass {
+    margin-top: 10px;
+    line-height: 1;
+}
+
+ul.submit {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+ul.submit li input[type="checkbox"] {
+    display: none;
+}
+
+ul.submit li input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 50px;
+    border: #F0F8FF;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+}
+
+ul.submit a {
+    float: right;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+
+ul.submit li input[type="checkbox"]+label span:first-child {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 2px solid white;
+    position: absolute;
+    top: -1px;
+    left: 20px;
+    bottom: 4px;
+}
+
+ul.submit li input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background: url(../images/tick.png)no-repeat;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 95px;
+    font-size: 15px;
+    padding: 10px 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    float: none;
+    cursor: pointer;
+}
