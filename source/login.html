@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="ribbon.scss">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center no-gutters">
+            <div class="col-md-7 bg-white mt-5">
+                <div class="row header-shadow no-gutters my-2">
+                    <div class="col-md-5">
+                        <div class="ribbon-container">
+                            <svg height="160" width="200" class="ribbon">
+                                <polygon points="0,0 0,90 100,150 200,90 200,0"
+                                    style="fill:white;stroke:MediumSeaGreen;stroke-width:10" />
+                                <polygon points="7,0 7,89 100,147 193,89 193,0"
+                                    style="fill:none;stroke:SlateBlue;stroke-width:5" />
+                                <text x="30" y="50" font-family="Verdana" font-size="37"
+                                    fill="MediumSeaGreen">ABCuni</text>
+                                <text x="27" y="80" font-family="Verdana" font-size="20"
+                                    fill="MediumSeaGreen">ABC University</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h3>ExamReg</h3>
+                        <p>Exam Register - Trang đăng kí lịch thi Trường đại học ABC</p>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2 mt-4 mb-4 p-2">
+                    <form action="" class="mt-5">
+                        <div class="box">
+                            <div class="box-header bg-success">
+                                <span class="text-white">
+                                    Đăng nhập hệ thống
+                                </span>
+                            </div>
+                            <div class="box-content">
+                                <div class="form-group">
+                                    <div class="with-icon-over-input">
+                                        <label class="control-label" for="LoginName">Tên truy cập</label>
+                                        <input class="form-control" placeholder="Tên truy cập" type="text" value="" />
+                                        <span><i class="icon-user text-muted"></i></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="with-icon-over-input">
+                                        <label class="control-label" for="Password">Mật khẩu</label>
+                                        <input class="form-control" placeholder="Mật khẩu" type="password" />
+                                        <span><i class="icon-lock text-muted"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a target="_blank" href="">Quên mật khẩu?</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button class="btn btn-success float-right"><i class="icon-signin"></i> Đăng
+                                                nhập</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
