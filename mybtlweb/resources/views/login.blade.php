@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
-
-    <link rel="stylesheet" href="loginstyle.css">
+    <base href="{{asset('')}}"}>
+    <link rel="stylesheet" href="css/loginstyle.css">
     <title>login</title>
 </head>
 
@@ -18,7 +18,6 @@
             <div class="bg-white">
                 <div class="header header-shadow">
                     <div class="mt-0 logo">
-                        <div class="logo1"></div>
                     </div>
                     <div class="name line">
                         <h1>ExamReg</h1>
