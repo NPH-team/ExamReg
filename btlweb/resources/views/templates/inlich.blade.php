@@ -5,7 +5,7 @@
             <tr>
                 <td style="width: 40%; vertical-align: top;font-family: 'times new roman';">
                     <p>ĐẠI HỌC QUỐC GIA HÀ NỘI</p>
-                    <p>TRƯỜNG ĐẠI HỌC C&#212;NG NGHỆ</p>
+                    <p>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ</p>
                 </td>
                 <td style="width: 60%; text-align: center; vertical-align: top;font-family: 'times new roman';">
                     <p>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>

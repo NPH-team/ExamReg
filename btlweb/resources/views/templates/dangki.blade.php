@@ -1,26 +1,29 @@
-@extends('templates.home') @section('content')
+@extends('templates.home')
+ @section('content')
 
-<table border=2px width="100%" class="table-responsive-md" style="margin-top: 50px;">
+<table border="1px" width="100%" id="loadata"class="table-responsive-md" style="margin-top: 50px;font-family: 'times new roman';">
     <tr>
-        <th>Môn học</th>
-        <th>Phòng thi</th>
-        <th>Ngày thi</th>
-        <th>Ca thi</th>
-        <th>số lượng</th>
-        <th>Đã đăng kí</th>
-        <th>Đăng kí</th>
+    <th style="text-align: center;">Đăng kí</th>
+        <th style="text-align: center;">Môn học</th>
+        <th style="text-align: center;">Phòng thi</th>
+        <th style="text-align: center;">Ngày thi</th>
+        <th style="text-align: center;">Ca thi</th>
+        <th style="text-align: center;">Số lượng</th>
+        <th style="text-align: center;">Đã đăng kí</th>
+        
     </tr>
     @foreach($users as $row)
     <tr>
-        <td>{{$row->tenmh}}</td>
-        <td>{{$row->phongthi}}</td>
-        <td>{{$row->ngaythi}}</td>
-        <td>{{$row->cathi}}</td>
-        <td>{{$row->soluongmay}}</td>
-        <td>{{$row->somaydk}}</td>
-        <td><input type="checkbox"></td>
+    <td style="text-align: center;"><input type="checkbox" class="choose"></td>
+        <td style="text-align: center;" class="ngay">{{$row->tenmh}}</td>
+        <td style="text-align: center;">{{$row->phongthi}}</td>
+        <td style="text-align: center;">{{$row->ngaythi}}</td>
+        <td style="text-align: center;">{{$row->cathi}}</td>
+        <td style="text-align: center;">{{$row->soluongmay}}</td>
+        <td style="text-align: center;">{{$row->somaydk}}</td>
+        
     </tr>
     @endforeach
 </table>
-<button type="submit" value="submit" id="submit" style="float: right; margin-top:5px">Ghi nhận</button>
+<button type="submit" value="submit" id="submit" style="float: right; margin-top:5px; background-color: green;">Ghi nhận</button>
 @endsection

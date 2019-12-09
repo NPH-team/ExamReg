@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <div class="d-flex justify-content-center no-gutters">
-            <div class="bg-white">
+            <div class="bg-white" style="height: 600px;margin-top: 27px">
                 <div class="header row">
                     <div class="mt-0 logo" style="background-image: url(image/background.png);">
                         <div class="logo1" style="background-image: url(image/logofinal.png);"></div>
@@ -26,8 +26,8 @@
                         <p>Exam Registration - Trang đăng kí lịch thi Trường đại học ABC</p>
                     </div>
                 </div>
-                <div class="login">
-                    <form action="" class="form mt-5">
+                <div class="login" style="margin-top: 10px">
+                    <form action="" class="form">
                         <div class="box">
                             <div class="box-header bg-success">
                                 <span class="text-white">
